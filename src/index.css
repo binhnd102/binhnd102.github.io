@@ -6,8 +6,63 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button.icon {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
+
+/* Post */
+.article {
+  margin: 2rem 0;
+}
+.post-wrapper {
+  width: 100%;
+}
+
+/* Blogs */
+.blogs {
+  margin: 2rem 0;
+}
+ /* About me */
+ .about {
+  margin: 2rem 0;
+ }
+/* Code */
+.code {
+  position: relative;
+}
+.code .copy-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 5;
+}
+
+/* Header */
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  transition: all 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: all 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+  background-color: rgb(123, 78, 213);
+}
+
+

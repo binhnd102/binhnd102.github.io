@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Blog Post 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "imageUrl": "/hello-world/images/1a.png",
+      "readMoreUrl": "#"
+    },
+    {
+      "id": 2,
+      "title": "Blog Post 2",
+      "description": "Sed vulputate dolor et sapien fermentum faucibus.",
+      "imageUrl": "https://via.placeholder.com/300",
+      "readMoreUrl": "#"
+    },
+    {
+      "id": 3,
+      "title": "Blog Post 3",
+      "description": "Sed vulputate dolor et sapien fermentum faucibus.",
+      "imageUrl": "https://via.placeholder.com/300",
+      "readMoreUrl": "#"
+    }
+  ]  
